@@ -62,7 +62,7 @@ fv_d_end_hp = None
 tv_d_end_hp = None
 
 
-def defaultInput():
+def default_input():
 
     global line_len, d_hp, d_vp, fv_coord1, fv_x_coord1, fv_y_coord1, tv_coord1, tv_x_coord1, tv_y_coord1
 
@@ -403,28 +403,28 @@ if user_input not in [1, 2, 3, 4]:
     raise ValueError("Please enter a valid option")
 
 if user_input == 1:
-    defaultInput()
+    default_input()
     q1input()
     q1calculation()
     calculateEverything()
     draw_projection()
 
 if user_input == 2:
-    defaultInput()
+    default_input()
     q2input()
     q2calculation()
     calculateEverything()
     draw_projection()
 
 if user_input == 3:
-    defaultInput()
+    default_input()
     q3input()
     q3calculation()
     calculateEverything()
     draw_projection()
 
 if user_input == 4:
-    defaultInput()
+    default_input()
     q4input()
     q4calculation()
     calculateEverything()
